@@ -1,6 +1,6 @@
 # rose-quote-sdk
 
-> 开放SDK
+> https://market.aliyun.com/products/57000002/cmapi023895.html 对应的PythonSDK
 
 ## 打包
 
