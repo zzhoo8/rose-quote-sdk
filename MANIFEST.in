@@ -1,0 +1,28 @@
+# 参考网址 https://docs.python.org/2/distutils/sourcedist.html#the-manifest-in-template
+
+# include all files under dir
+# graft app
+
+# include all files matching any of the listed patterns
+#include AUTHORS.rst
+include app/requirements.txt
+
+# include all files under dir matching any of the listed patterns
+#recursive-include eve *.html
+#recursive-include tests *
+
+# exclude all files matching any of the listed patterns
+exclude MANIFEST.in README.md Dockerfile
+
+# exclude all files under dir matching any of the listed patterns
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
+
+# exclude all files under dir
+prune california/admin/app
+# prune california/admin/tests
+prune california/core/app
+# prune california/core/tests
+prune venv
+prune node_modules
+prune datadict
