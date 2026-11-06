@@ -27,7 +27,7 @@ print(quote.name, quote.now)
 或直接调用模型类：
 
 ```python
-from rose_quote_sdk.model.quote import Quote
+from rose_quote_sdk.main.model.quote import Quote
 
 quote = Quote.get(
     host='https://xhuabu.market.alicloudapi.com',

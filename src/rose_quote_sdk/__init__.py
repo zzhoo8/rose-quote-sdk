@@ -4,8 +4,8 @@ from typing import Annotated, Optional
 
 from pydantic import Field
 
-from rose_quote_sdk.common.tool.logger import init_logger
-from rose_quote_sdk.model.quote import Quote
+from rose_quote_sdk.main.common.tool.logger import init_logger
+from rose_quote_sdk.main.model.quote import Quote
 
 
 class RoseQuoteSdk(object):
